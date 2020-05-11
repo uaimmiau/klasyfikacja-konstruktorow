@@ -11,6 +11,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(bg.jpg);
+    -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
     height: 100vh;
 }
