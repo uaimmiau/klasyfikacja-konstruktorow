@@ -9,6 +9,7 @@
 }
 body{
     background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(bg.jpg);
     backdrop-filter: blur(7px);
     height: 100vh;
@@ -17,13 +18,13 @@ body{
     width: 60rem;
     margin-right: auto;
     margin-left: auto;
-    font-size: 4rem;
+    font-size: 3.7rem;
     
 }
 #logo{
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 5rem;
 }
 #logoimg{
     width: 35rem;
@@ -41,7 +42,7 @@ li{
     display: flex;
     justify-content: space-between;
     width: 60rem;
-    height: 7.3rem;
+    
     margin: 0.3rem;
 }
 p{
