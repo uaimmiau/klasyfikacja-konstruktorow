@@ -25,10 +25,10 @@ body{
 #logo{
     display: flex;
     justify-content: center;
-    padding: 5rem;
+    padding: 3rem;
 }
 #logoimg{
-    width: 35rem;
+    width: 33rem;
 }
 #lista{
     width: 60rem;
@@ -37,6 +37,7 @@ body{
 }
 ul{
     list-style-type: none;
+
 }
 li{
     color: #fff;
@@ -44,10 +45,16 @@ li{
     justify-content: space-between;
     width: 60rem;
     
-    margin: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 p{
     padding: 1rem;
+     -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
 }
 .prefix{
     display: flex;
@@ -73,4 +80,17 @@ p:hover{
     box-shadow: 0 0.4rem 1.4rem 0 rgba(230, 0, 0, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
+}
+.racePoints > p {
+    background-color: #fff;
+    color: #E50100;
+    width: 8.3rem;
+    height: 6rem;
+}
+.racePoints{
+    display: none;
+}
+.racePoint{
+    display: flex;
+    justify-content: center;
 }
