@@ -86,10 +86,16 @@ p:hover{
     width: 8.3rem;
     height: 6rem;
 }
-.racePoints{
+.racePoints,.driversList{
     display: none;
 }
-.racePoint{
+.racePoint,.driver{
     display: flex;
     justify-content: center;
+}
+.driversList > p{
+    background-color: #fff;
+    color: #E50100;
+    width: 29.85rem;
+    height: 6rem;
 }

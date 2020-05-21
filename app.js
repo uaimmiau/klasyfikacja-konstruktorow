@@ -15,18 +15,26 @@ wpisywanko = () => {
     for(i = 0; i < punktyLength; i++){
         punkty[i].innerText = tab[i].points;
     }
+    for(i = 0; i < driversList.length; i++){
+        var driver = driversList[i].querySelectorAll('p');
+        driver[0].innerText = tab[i].driver1;
+        driver[1].innerText = tab[i].driver2;
+    }
     tworzenieLisineruf();
 }
 
 //LISINERY I INNE BAJERY
-const teams = document.getElementsByClassName('team');
+const teams = document.getElementsByClassName('points');//nazwa teams zostawiona bo nie chciałem zmieniać
+const teamsName = document.getElementsByClassName('name');
 const racePoints = document.getElementsByClassName('racePoints');
+const driversList = document.getElementsByClassName('driversList');
 
 teamsEventListener = licznik => {
     var test = 0;
     teams[licznik].addEventListener('click', e => {
         for(i = 0; i < racePoints.length; i++){
             racePoints[i].style.display = "none";
+            driversList[i].style.display = "none";
         }
         if(test == 0){
             racePoints[licznik].style.display = "flex";
@@ -36,6 +44,18 @@ teamsEventListener = licznik => {
         }
         console.log(test,"witaj o przybyszu który zauważyłeś upośledzenie systemu zamykania, to się kiedyś zateguje")
     })
+    teamsName[licznik].addEventListener('click', e => {
+        for(i = 0; i < driversList.length; i++){
+            racePoints[i].style.display = "none";
+            driversList[i].style.display = "none";
+        }
+        if(test == 0){
+            driversList[licznik].style.display = "flex";
+            test = 1;
+        }else{
+            test = 0;
+        }
+    })
 }
 
 tworzenieLisineruf = () => {
@@ -44,7 +64,6 @@ tworzenieLisineruf = () => {
     }
     for(i = 0; i < racePoints.length; i++){
         var racePoint = racePoints[i].querySelectorAll('p');
-        console.log(racePoint[0])
         racePoint[0].innerText = tab[i].r1;
         racePoint[1].innerText = tab[i].r2;
         racePoint[2].innerText = tab[i].r3;
