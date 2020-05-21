@@ -9,7 +9,7 @@
         "r6": "-",
         "r7": "-",
         "points": "57",
-        "driver1":"Uaim Miau",
+        "driver1":"U Miau",
         "driver2":"Pius XIII"
     },
     {
@@ -22,8 +22,8 @@
         "r6": "-",
         "r7": "-",
         "points": "6",
-        "driver1":"M.Deulaibeo",
-        "driver2":"Zorgi Lohko"
+        "driver1":"M Deulaibeo",
+        "driver2":"Z Lohko"
     },
     {
         "name": "Scuderia Ferrari",
@@ -35,8 +35,8 @@
         "r6": "-",
         "r7": "-",
         "points": "124",
-        "driver1":"A.Cerbiatto",
-        "driver2":"R.Silverhand"
+        "driver1":"A Cerbiatto",
+        "driver2":"R Silverhand"
     },
     {
         "name": "Williams",
@@ -48,8 +48,8 @@
         "r6": "-",
         "r7": "-",
         "points": "100",
-        "driver1":"Navi Gator",
-        "driver2":"Randall Simon"
+        "driver1":"N Gator",
+        "driver2":"R Simon"
     },
     {
         "name": "EdCarpenter NOTRacing",
@@ -61,8 +61,8 @@
         "r6": "-",
         "r7": "-",
         "points": "12",
-        "driver1":"Kaniił Dwiat",
-        "driver2":"Edward Stolarz"
+        "driver1":"K Dwiat",
+        "driver2":"E Stolarz"
     },
     {
         "name": "Force India",
@@ -74,8 +74,8 @@
         "r6": "-",
         "r7": "-",
         "points": "5",
-        "driver1":"Ethan Mayhew",
-        "driver2":"A.Gonzales"
+        "driver1":"E Mayhew",
+        "driver2":"A Gonzales"
     },
     {
         "name": "Scuderia Alfa Romeo",
@@ -87,8 +87,8 @@
         "r6": "-",
         "r7": "-",
         "points": "61",
-        "driver1":"S.Spinelli",
-        "driver2":"J.Giacomo"
+        "driver1":"S Spinelli",
+        "driver2":"J Giacomo"
     },
     {
         "name": "D&R",
@@ -100,8 +100,8 @@
         "r6": "-",
         "r7": "-",
         "points": "16",
-        "driver1":"Filip Masa",
-        "driver2":"Dawid Rzeźba"
+        "driver1":"F Masa",
+        "driver2":"D Rzeźba"
     },
     {
         "name": "Lotus",
@@ -113,8 +113,8 @@
         "r6": "-",
         "r7": "-",
         "points": "83",
-        "driver1":"Georgi Pocow",
-        "driver2":"H.Krzemowy"
+        "driver1":"G Pocow",
+        "driver2":"H Krzemowy"
     },
     {
         "name": "BMW Perla Racing",
@@ -126,8 +126,8 @@
         "r6": "-",
         "r7": "-",
         "points": "50",
-        "driver1":"Seba Sebowski",
-        "driver2":"Arnold Dwusuw"
+        "driver1":"S Sebowski",
+        "driver2":"A Dwusuw"
     },
     {
         "name": "Minardi",
@@ -139,7 +139,7 @@
         "r6": "-",
         "r7": "-",
         "points": "0",
-        "driver1":"Pute Dirk",
-        "driver2":"Kun Viklung"
+        "driver1":"P Dirk",
+        "driver2":"K Viklung"
     }
 ]
