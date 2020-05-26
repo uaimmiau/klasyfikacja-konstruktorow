@@ -5,7 +5,7 @@ var punktyLength = punkty.length;
 
 var tab = [];
 
-
+//test
 wpisywanko = () => {
     tab.sort( (a,b) => b.points - a.points);
     var i = 0;
